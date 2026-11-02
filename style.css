@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: navy;
+    margin: 20px;
+    padding: 40px 0px 40px 0px;
+    border-radius: 10px;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 2px;
+}
+
+h1 {
+    color: rgb(238, 2, 2);
+    background: black;
+    font-size: 75px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+
+button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.reset {
+    margin-top: 6px;
+}

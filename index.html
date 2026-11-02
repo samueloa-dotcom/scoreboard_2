@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <h1 id="score-el1">0</h1>
+
+            <div class="points-button">
+                <button onclick="firstplus1()">+1</button>
+                <button onclick="firstplus2()">+2</button>
+                <button onclick="firstplus3()">+3</button>
+                <br>
+                <button class="reset" onclick="reset1()">Reset</button>
+            </div>
+        </div>
+        
+        <div>
+            <h3>GUEST</h3>
+            <h1 id="score-el2">0</h1>
+
+              <div class="points-button2">
+                <button onclick="secondplus1()">+1</button>
+                <button onclick="secondplus2()">+2</button>
+                <button onclick="secondplus3()">+3</button>
+                <br>
+                <button class="reset" onclick="reset2()">Reset</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
